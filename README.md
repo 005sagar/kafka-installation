@@ -6,7 +6,7 @@ In this project, we will install kafa and Zookeeper. We will also try Kafka Prod
 * Then hit these commands
  * ```refeshenv```
  * ```choco list -l```
-* ```java --version```
+ * ```java --version```
  * ```mvn -v```
 
 ## Install kakfa with Zoopkepper
@@ -25,10 +25,10 @@ In this project, we will install kafa and Zookeeper. We will also try Kafka Prod
   * ```KAFKA_HOME =  C:\kafka-version folder```
   * ```M2_HOME = C:\ProgramData\chocolatey\lib\maven\apache-maven-version```
  * Go to path, double click it and repeat the same process
-  * ```%JAVA_HOME%\bin OR C:\Program Files\OpenJDK\jdk-version\bin (or similar, NOT both!)```
-  * ```%M2_HOME%\bin```
-  * ```%KAFKA_HOME%\bin```
-  * ```%KAFKA_HOME%\bin\windows```
+  *  ```%JAVA_HOME%\bin OR C:\Program Files\OpenJDK\jdk-version\bin (or similar, NOT both!)```
+  *  ```%M2_HOME%\bin```
+  *  ```%KAFKA_HOME%\bin```
+  *  ```%KAFKA_HOME%\bin\windows```
  
  ## Try Some Kafka Commands now
  ### Open different poweshell for different commands.
