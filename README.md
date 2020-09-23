@@ -23,7 +23,7 @@ In this project, we will install kafa and Zookeeper. We will also try Kafka Prod
  * Go to System Variables and Check these variables; If not found make new one 
  ```JAVA_HOME = C:\Program Files\OpenJDK\jdk-version folder```
  ```KAFKA_HOME =  C:\kafka-version folder```
- ```M2_HOME = C:\ProgramData\chocolatey\lib\maven\apache-maven-version``
+ ```M2_HOME = C:\ProgramData\chocolatey\lib\maven\apache-maven-version```
  * Go to path, double click it and repeat the same process
  ```%JAVA_HOME%\bin OR C:\Program Files\OpenJDK\jdk-version\bin (or similar, NOT both!)```
  ```%M2_HOME%\bin```
