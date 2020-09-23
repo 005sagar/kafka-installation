@@ -4,10 +4,10 @@ In this project, we will install kafa and Zookeeper. We will also try Kafka Prod
 ## Check for Maven and OpenJDk
 * Install Maven and OpenJDK and verify or (If you already have them then just do upgrade using ```choco upgrade all -y```
 * Then hit these commands
- * ```refeshenv```
- * ```choco list -l```
- * ```java --version```
- * ```mvn -v```
+  * ```refeshenv```
+  * ```choco list -l```
+  * ```java --version```
+  * ```mvn -v```
 
 ## Install kakfa with Zoopkepper
 * Go to "https://kafka.apache.org/quickstart" and click download and download the recommended version
@@ -41,7 +41,7 @@ In this project, we will install kafa and Zookeeper. We will also try Kafka Prod
  * ``` .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list ``` this command will list the created topics 
  * ```.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --delete --topic <topic> ``` this command will delete the topic you named 
 * For mine it was 
- * ```.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --delete --topic lastweekend-result``` 
+  * ```.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --delete --topic lastweekend-result``` 
 * Now let's  run Kafka Producer (will provide a > prompt for writing messages)
 ``` .\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic football-fixtures ``` this command will allow you to send the messages to the topic
 * Now let's run Kafka Consumer (to show messages from the beginning)
